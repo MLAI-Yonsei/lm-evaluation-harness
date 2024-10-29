@@ -1,4 +1,4 @@
-# RACE
+# RACE Middle
 
 ### Paper
 
@@ -46,7 +46,7 @@ Homepage: https://www.cs.cmu.edu/~glai1/data/race/
 
 #### Tasks
 
-* `race`
+* `Race_middle`
 
 ### Checklist
 
