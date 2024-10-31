@@ -36,7 +36,7 @@ def doc_to_text(doc):
     else:
         # question = "Question: " + doc["question"] + "\n"
         question = "Question, fill in the blank : " + doc["question"] + "\n"
-        answer = "Answer: " + get_answer_option(doc) + "\n"
+        # answer = "Answer: " + get_answer_option(doc) + "\n"
         # text += question + answer
         text += question 
 
