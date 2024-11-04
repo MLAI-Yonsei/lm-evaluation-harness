@@ -1,4 +1,4 @@
-peft_path="/data1/choins18/new_llama/LLaMA-Factory/saves/llama3_edu_v3/checkpoint-20000"
+peft_path="/data1/choins18/test/bookIPs-Solvook-LLM/saves/llama3.1_edu" #### must edit adapter path 
 
 
 CUDA_VISIBLE_DEVICES=0 lm_eval --model hf --model_args pretrained="akjindal53244/Llama-3.1-Storm-8B",trust_remote_code=True,add_bos_token=True,peft=$peft_path --batch_size 4 --seed 42 --device cuda:0 --output_path test/akjindal53244/Llama-3.1-Storm-8B/reporting/all/ --tasks boolq,piqa,social_iqa,hellaswag,winogrande,arc_easy,arc_challenge,openbookqa,triviaqa,race --trust_remote_code
